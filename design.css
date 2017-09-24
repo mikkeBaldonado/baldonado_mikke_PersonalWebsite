@@ -5,20 +5,29 @@ body {
 	margin: 0px;
 }
 
-header, footer {
+header {
     padding: 1em;
     color: white;
-    background-color:#4bc9e5;
+    background-color:#444849;
     clear: left;
     text-align: center;
+	font-size: 15px;
+}
+footer{
+    color: white;
+    background-color:#444849;
+    clear: left;
+    text-align: center;
+	height: 45px;
+	width: 100%;
 }
 #container{
 	margin-left: 170px;
     border-left: 1px solid gray;
 	margin-right: 170px;
     border-right: 1px solid gray;
+	background-color: #c2c5c6;
     padding: 1em;
     overflow: hidden;
-	height: 492px;
+	height: 519px;
 }
-		
