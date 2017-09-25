@@ -25,10 +25,9 @@ footer{
 	margin-right: 170px;
     border-right: 1px solid gray;
 	background-color: #Fbeec1;
-    padding: 1em;
     overflow: hidden;
 	text-align: center;
-	height: 560px;
+	height: auto;
 	font-style: italic;
 }
 #container h1{
@@ -47,10 +46,9 @@ footer{
 	margin-left: 5px;
 }
 
-#class {			
-	height: 40%; 		
+#class {					
 	margin-top: 60px;
-	
+	height: 217px;
 }
 #button{
 	width: 900px;
@@ -87,6 +85,7 @@ footer{
 
 .info{
 	text-align: left;
+	height: 478px;
 }
 .info p{
 	font-size: 20px;
@@ -98,6 +97,16 @@ footer{
 	font-size: 15px;
 }
 
+.aspi{
+	text-align: left;
+	height: auto;
+}
+.aspi p{
+	font-size: 20px;
+}
+.aspi h4{
+	text-align: center;
+}
 aside{
     float: left;
     max-width: 160px;
