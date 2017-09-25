@@ -46,7 +46,7 @@ footer{
 
 #class {			
 	height: 40%; 		
-	margin-top: 45px;
+	margin-top: 60px;
 	
 }
 #button{
@@ -77,5 +77,7 @@ footer{
 }
 			
 #button a:hover {			
-	color: #444849;		
+	background-color: #444849;
+	color: #c2c5c6;
+	
 }
