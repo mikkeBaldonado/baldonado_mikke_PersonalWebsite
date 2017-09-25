@@ -40,6 +40,7 @@ footer{
 #container h3{
 	font-size: 30px;
 }
+
 #icons{
 	background-color: #444849;
 }
@@ -80,4 +81,17 @@ footer{
 	background-color: #444849;
 	color: #c2c5c6;
 	
+}
+
+.info{
+	text-align: left;
+}
+.info p{
+	font-size: 20px;
+}
+.info h4{
+	text-align: center;
+}
+.info p span{
+	font-size: 15px;
 }
