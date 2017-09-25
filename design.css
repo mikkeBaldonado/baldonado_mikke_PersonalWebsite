@@ -97,3 +97,39 @@ footer{
 .info p span{
 	font-size: 15px;
 }
+
+aside{
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+#link1{
+	background-color: #444849;
+	color: #c2c5c6;
+}
+#link1:hover{
+	background-color: #c2c5c6;
+	color: #444849;
+}
+aside ul {
+    list-style-type: none;
+    padding: 1;
+}
+aside ul li{
+	padding-top: 45px;
+}
+aside ul a {
+    text-decoration: none;
+	font-size: 13px;
+	background-color: white;
+	color: #444849;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding: 10px;
+	border-radius: 3px;
+}
+aside ul a:hover {
+    background-color: #444849;
+	color: #c2c5c6;
+}
