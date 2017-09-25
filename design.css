@@ -27,7 +27,18 @@ footer{
 	background-color: #c2c5c6;
     padding: 1em;
     overflow: hidden;
+	text-align: center;
 	height: 520px;
+	font-style: italic;
+}
+#container h1{
+	font-size: 60px;
+}
+#container h2{
+	font-size: 40px;
+}
+#container h3{
+	font-size: 30px;
 }
 #icons{
 	background-color: #444849;
