@@ -14,11 +14,9 @@ header {
 	font-size: 15px;
 }
 footer{
-    color: white;
     background-color:#444849;
     clear: left;
-    text-align: center;
-	height: 45px;
+    text-align: left;
 	width: 100%;
 }
 #container{
@@ -29,5 +27,8 @@ footer{
 	background-color: #c2c5c6;
     padding: 1em;
     overflow: hidden;
-	height: 519px;
+	height: 520px;
+}
+#icons{
+	background-color: #444849;
 }
