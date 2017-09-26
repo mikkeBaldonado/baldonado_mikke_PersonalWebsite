@@ -113,6 +113,27 @@ aside{
     margin: 0;
     padding: 1em;
 }
+nav{
+    float: right;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+	color: solid grey;
+	font-weight: bold;
+	background: #c2c5c6;
+}
+blockqoute{
+	margin: 0;
+}
+nav p {
+    margin: 0;
+}
+nav blockquote {
+    font-weight: bold;
+    padding: 6px;
+    border-top: 2px solid #600;
+    margin: 0;
+}
 #link1{
 	background-color: #444849;
 	color: #c2c5c6;
