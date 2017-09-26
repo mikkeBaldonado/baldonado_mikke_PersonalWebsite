@@ -134,6 +134,11 @@ nav blockquote {
     border-top: 2px solid #600;
     margin: 0;
 }
+#author{
+	color:  #600;
+	font-size: 15px;
+	margin-top: 15px;
+}
 #link1{
 	background-color: #444849;
 	color: #c2c5c6;
