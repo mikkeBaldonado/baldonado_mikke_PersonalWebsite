@@ -10,8 +10,19 @@ header {
     color: white;
     background-color:#05386b;
     clear: left;
-    text-align: center;
+    text-align: left;
 	font-size: 15px;
+}
+#name{
+	margin-left: 30px;
+}
+header h1{
+	margin-top: -22px;
+	margin-bottom: unset;
+}
+header h3{
+	margin-left: 41px;
+	margin-top: auto;
 }
 footer{
     background-color:#05386b;
@@ -38,6 +49,7 @@ footer{
 }
 #container h3{
 	font-size: 30px;
+	margin-top: -40px;
 }
 
 #icons{
@@ -48,7 +60,7 @@ footer{
 
 #class {					
 	margin-top: 60px;
-	height: 217px;
+	height: 321px;
 }
 #button{
 	width: 900px;
@@ -85,7 +97,7 @@ footer{
 
 .info{
 	text-align: left;
-	height: 478px;
+	height: 502px;
 }
 .info p{
 	font-size: 20px;
@@ -100,6 +112,8 @@ footer{
 .aspi{
 	text-align: left;
 	height: auto;
+	margin-left: 10px;
+	margin-right: 5px;
 }
 .aspi p{
 	font-size: 20px;
