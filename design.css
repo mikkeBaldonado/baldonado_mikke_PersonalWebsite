@@ -137,13 +137,15 @@ header h3{
 	border-right: 1px solid grey;
 }
 nav{
+	background-color: black;
     float: right;
     max-width: 160px;
     margin: 0;
-    padding: 1em;
 	color: solid grey;
 	font-weight: bold;
 	background: #c2c5c6;
+	margin-top: -609px;
+	overflow: -webkit-paged-x;
 }
 aside{
     float: left;
@@ -167,13 +169,11 @@ aside ul a:hover{
 	transition: .5s;
 	margin-left: 30px;
 }
-blockqoute{
-	margin: 0;
-}
 nav p {
     margin: 0;
 }
 nav blockquote {
+	background-color: wheat;
     font-weight: bold;
     padding: 6px;
     border-top: 2px solid #600;
