@@ -37,22 +37,34 @@ header h3{
 	background-color: black;
 	text-align: center;
 	color: white;
-	height: 500px;
+	height: auto;
 	font-style: italic;
 	opacity: 0.5;
 }
-#container h1{
-	font-size: 60px;
+#home{
+	margin-left: 170px;
+    border-left: 1px solid gray;
+	margin-right: 170px;
+    border-right: 1px solid gray;
+	text-align: center;
+	color: black;
+	height: auto;
+	font-style: italic;
+	background-color: wheat;
 }
-#container h2{
+#home h1{
+	font-size: 60px;
+	margin-top: -300px;
+}
+#home h2{
 	font-size: 40px;
 }
-#container h3{
+#home h3{
 	font-size: 30px;
 	margin-top: -40px;
 }
-#container h5{
-	margin-top: 155px;
+#home h5{
+	margin-top: 200px;
 	font-size: 20px;
 }
 #container p{
@@ -66,7 +78,7 @@ header h3{
 
 #class {					
 	margin-top: 60px;
-	height: 144px;
+	height: 172px;
 }
 #button{
 	width: 900px;
@@ -169,6 +181,28 @@ aside ul a:hover{
 	transition: .5s;
 	margin-left: 30px;
 }
+.icon{
+    float: left;
+    width: 160px;
+    margin-top: -100px;
+	overflow: -webkit-paged-x;
+}
+.icon ul{
+	list-style-type: none;
+	padding: 0;
+}
+.icon ul li{
+	padding-top: 0px;
+	margin-top: 10px;
+}
+.icon ul a{
+	text-decoration: none;
+	padding: 8px;
+}
+.icon ul a:hover{
+	transition: .5s;
+	margin-left: 30px;
+}
 nav p {
     margin: 0;
 }
@@ -207,6 +241,7 @@ nav blockquote {
 	border-radius: 3px;
 }
 #tabs ul a:hover {
+	text-decoration: underline;
 	color: #c2c5c6;
 	clear: both;
 }
