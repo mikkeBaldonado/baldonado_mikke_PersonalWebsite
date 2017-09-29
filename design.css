@@ -12,14 +12,17 @@ header {
 	font-size: 15px;
 }
 #name{
-	text-align: left;
 	margin-left: 30px;
 }
+
 header h1{
+	
+	text-align: left;
 	margin-top: -22px;
 	margin-bottom: unset;
 }
 header h3{
+	text-align: left;
 	margin-left: 41px;
 	margin-top: auto;
 }
