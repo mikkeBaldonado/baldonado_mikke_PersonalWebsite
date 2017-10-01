@@ -1,5 +1,4 @@
 body {
-
 	background-color: #b4dfe5;
 	width: auto;
     height: auto;
@@ -318,4 +317,33 @@ nav blockquote {
 	text-decoration: underline;
 	color: #c2c5c6;
 	clear: both;
+}
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+#slider {
+	overflow: hidden; 
+}
+#slider figure img { 
+	width: 20%;
+	float: left;
+	height: 200px;
+}
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
 }
