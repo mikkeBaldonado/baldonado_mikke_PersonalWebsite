@@ -14,7 +14,6 @@ header {
 }
 #name{
 	margin-left: 30px;
-	width: 100%;
 }
 .link{	
 	width: 100px;
@@ -43,10 +42,11 @@ header h3{
 	margin-left: 33px;
 	margin-top: auto;
 }
-
+.layout{
+	height:auto;
+}
 .layout #back{
-	height: 646px;
-
+	height: 665px;
 	width: 100%;
 }
 #container{
@@ -61,6 +61,17 @@ header h3{
 	height: auto;
 	font-style: italic;
 	opacity: 0.5;
+}
+#containerAchievement{
+	margin-top: -640px;
+	margin-left: 170px;
+    border-left: 1px solid gray;
+	margin-right: 170px;
+    border-right: 1px solid gray;
+	text-align: center;
+	color: #05386b;
+	height: auto;
+	font-style: italic;
 }
 #home{
 	margin-left: 170px;
@@ -92,6 +103,36 @@ header h3{
 }
 #container p{
 	font-size: inherit;
+}
+#containerAchievement p{
+	font-size: inherit;
+}
+#gal{
+	overflow: -webkit-paged-x;
+	
+}
+#gal .gallery {
+	border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+	color:black;
+	margin: 5px;
+}
+
+.gallery:hover {
+    border: 1px solid white;
+}
+
+.gallery img {
+	background-color: antiquewhite;
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    background-color: antiquewhite;
+	padding: 15px;
+    text-align: center;
 }
 #icons{
 	float: left;
@@ -174,7 +215,6 @@ header h3{
 	text-align: right;
     margin-top: -49px;
 	overflow: hidden;
-	border-right: 1px solid grey;
 }
 nav{
 	background-color: black;
