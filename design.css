@@ -1,4 +1,5 @@
 body {
+
 	background-color: #b4dfe5;
 	width: auto;
     height: auto;
@@ -41,6 +42,11 @@ header h3{
 	text-align: left;
 	margin-left: 33px;
 	margin-top: auto;
+}
+.profile{
+	margin-top: -37px;
+	margin-bottom: 7px;
+	padding-left: 47%;
 }
 .layout{
 	height:auto;
@@ -209,7 +215,6 @@ header h3{
 	text-align: center;
 }
 #tabs{
-	margin-right: 20px;
 	margin-bottom: -7px;
 	padding: 1;
 	text-align: right;
