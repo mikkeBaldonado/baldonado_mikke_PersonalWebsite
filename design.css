@@ -78,6 +78,28 @@ header h3{
 	height: auto;
 	font-style: italic;
 }
+#containerProf{
+	margin-top: -640px;
+	margin-left: 170px;
+    border-left: 1px solid gray;
+	margin-right: 170px;
+    border-right: 1px solid gray;
+	text-align: center;
+	color: #05386b;
+	height: auto;
+	font-style: italic;
+}
+#containerInfo{
+	margin-top: -640px;
+	margin-left: 170px;
+    border-left: 1px solid gray;
+	margin-right: 170px;
+    border-right: 1px solid gray;
+	text-align: center;
+	color: #05386b;
+	height: auto;
+	font-style: italic;
+}
 #home{
 	margin-left: 170px;
     border-left: 1px solid gray;
@@ -112,6 +134,9 @@ header h3{
 #containerAchievement p{
 	font-size: inherit;
 }
+#containerInfo p{
+	font-size: inherit;
+}
 #gal{
 	overflow: -webkit-paged-x;
 	
@@ -122,10 +147,6 @@ header h3{
     width: 180px;
 	color:black;
 	margin: 5px;
-}
-
-.gallery:hover {
-    border: 1px solid white;
 }
 
 .gallery img {
@@ -181,21 +202,35 @@ header h3{
 	color: #c2c5c6;
 	
 }
-
+#About{
+	overflow: -webkit-paged-x;
+}
+#About img{
+	float: left;
+}
 .info{
+	border: 1px solid #ccc;
+	background-color: antiquewhite;
+	float: left;
 	text-align: left;
 	height: 484px;
-	margin-left: 10px;
-	margin-right: 5px;
-	color: White;
+	margin: 5px;
+	color: black;
+	width: 250px;
+	height: 200px;
+	padding: 5px;
+	font-style: bold;
 }
 .info p{
 	font-size: 20px;
+	color: #05386b;
+	font-style: bold;
 }
 .info h4{
 	text-align: center;
 }
 .info p span{
+	color: black;
 	font-size: 15px;
 }
 
@@ -338,7 +373,7 @@ nav blockquote {
 	float: left;
 	height: 200px;
 }
-div#slider figure { 
+#slider figure { 
   position: relative;
   width: 500%;
   margin: 0;
@@ -346,4 +381,7 @@ div#slider figure {
   text-align: left;
   font-size: 0;
   animation: 30s slidy infinite; 
+}
+#containerProf img{
+	
 }
