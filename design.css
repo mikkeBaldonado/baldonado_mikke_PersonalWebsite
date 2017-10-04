@@ -45,7 +45,22 @@ header h3{
 .profile{
 	margin-top: -37px;
 	margin-bottom: 7px;
-	padding-left: 47%;
+	margin-left: 47%;
+	width: 30px;
+}
+.profile .tooltip{
+	visibility: hidden;
+	width: 120px;
+	background-color: #b4dfe5;
+	color: #05386b;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+	position: absolute;
+	z-index: 1;
+}
+.profile:hover .tooltip{
+	visibility: visible;
 }
 .layout{
 	height:auto;
@@ -62,10 +77,9 @@ header h3{
     border-right: 1px solid gray;
 	background-color: black;
 	text-align: center;
-	color: cyan;
+	color: #05386b;
 	height: auto;
 	font-style: italic;
-	opacity: 0.5;
 }
 #containerAchievement{
 	margin-top: -640px;
@@ -138,8 +152,7 @@ header h3{
 	font-size: inherit;
 }
 #gal{
-	overflow: -webkit-paged-x;
-	
+	overflow: -webkit-paged-x;	
 }
 #gal .gallery {
 	border: 1px solid #ccc;
@@ -208,6 +221,23 @@ header h3{
 #About img{
 	float: left;
 }
+
+.pic .tooltip{
+	margin-left: -570px;
+	visibility: hidden;
+	width: 120px;
+	background-color: #b4dfe5;
+	color: #05386b;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+	position: absolute;
+	z-index: 1;
+}
+.pic:hover .tooltip{
+	visibility: visible;
+	position: bottom;
+}
 .InfoBack{
 	width: 80%;
 	float: right;
@@ -237,17 +267,25 @@ header h3{
 	color: black;
 	font-size: 15px;
 }
-
+#goal{
+	overflow: -webkit-paged-x;	
+}
 .aspi{
-	color: white;
+	border: 1px solid #ccc;
+	background-color: antiquewhite;
+	float: left;
 	text-align: left;
+	height: 484px;
+	margin: 4px;
+	color: black;
+	width: 180px;
 	height: auto;
-	margin-left: 10px;
-	margin-right: 5px;
-	font-size: large;
+	padding: 4px;
+	font-style: bold;
 }
 .aspi p{
 	font-size: 20px;
+	font-style: bold;
 }
 .aspi h4{
 	text-align: center;
