@@ -208,17 +208,21 @@ header h3{
 #About img{
 	float: left;
 }
+.InfoBack{
+	width: 80%;
+	float: right;
+}
 .info{
 	border: 1px solid #ccc;
 	background-color: antiquewhite;
 	float: left;
 	text-align: left;
 	height: 484px;
-	margin: 5px;
+	margin: 4px;
 	color: black;
 	width: 250px;
 	height: 200px;
-	padding: 5px;
+	padding: 4px;
 	font-style: bold;
 }
 .info p{
